@@ -35,9 +35,9 @@ optional arguments:
 Exemple avec le fichier fourni sur Moodle.
 ```shell
 # Déchiffrement
-./vigenere.py -d -F exampleKeyFile -f exampleEncryptedFile -o decryptedTemp
+./vigenere.py -d -K exampleKeyFile -M exampleEncryptedFile -o decryptedTemp
 # Chiffrement
-./vigenere.py -e -F exampleKeyFile -f decryptedTemp -o encryptedTemp -U
+./vigenere.py -e -K exampleKeyFile -M decryptedTemp -o encryptedTemp -U
 # Vérification
 diff encryptedTemp exampleEncryptedFile
 ```  
