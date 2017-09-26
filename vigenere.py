@@ -61,7 +61,7 @@ else:
 if(args.message):
   message = remove_accents(args.message.lower()).decode("utf-8")
 else:
-  with open(args.file, 'r', encoding='utf-8') as mf:
+  with open(args.messagefile, 'r', encoding='utf-8') as mf:
     message = remove_accents(mf.read().rstrip("\n").lower()).decode("utf-8")
 
 # Trimming des espaces
