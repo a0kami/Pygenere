@@ -4,7 +4,7 @@ Chiffrement/déchiffrement de Vigenère en Python3.
 # How-to  
 Cloner le dépot et penser à rendre le script exécutable.  
 ```shell
-git clone https://github.com/aoikeiichi/Pygenere
+git clone https://github.com/a0kami/Pygenere
 cd Pygenere; chmod u+x vigenere.py
 ```  
 
